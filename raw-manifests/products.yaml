@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: products-container
-          image: "public.ecr.aws/k3d0y0m9/ecommerce/products:0.0.1"
+          image: "public.ecr.aws/l5o3h0b6/ecommerce/products:v0.0.1"
           ports:
           - containerPort: 3004
           resources:

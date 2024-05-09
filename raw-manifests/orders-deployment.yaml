@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: orders-container
-          image: "public.ecr.aws/k3d0y0m9/ecommerce/orders:0.0.1"
+          image: "public.ecr.aws/l5o3h0b6/ecommerce/orders:v0.0.1"
           ports:
           - containerPort: 3003
           resources:
